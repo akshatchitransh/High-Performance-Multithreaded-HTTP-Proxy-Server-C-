@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/akshat_chitransh/projects/High-Performance-Multithreaded-HTTP-Proxy-Server-C-/src/main.cpp" "CMakeFiles/proxy.dir/src/main.cpp.o" "gcc" "CMakeFiles/proxy.dir/src/main.cpp.o.d"
+  "/home/akshat_chitransh/projects/High-Performance-Multithreaded-HTTP-Proxy-Server-C-/src/parser.cpp" "CMakeFiles/proxy.dir/src/parser.cpp.o" "gcc" "CMakeFiles/proxy.dir/src/parser.cpp.o.d"
   "/home/akshat_chitransh/projects/High-Performance-Multithreaded-HTTP-Proxy-Server-C-/src/server.cpp" "CMakeFiles/proxy.dir/src/server.cpp.o" "gcc" "CMakeFiles/proxy.dir/src/server.cpp.o.d"
   )
 
