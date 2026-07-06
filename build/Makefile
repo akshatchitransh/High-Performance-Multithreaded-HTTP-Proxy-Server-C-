@@ -177,6 +177,30 @@ src/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proxy.dir/build.make CMakeFiles/proxy.dir/src/parser.cpp.s
 .PHONY : src/parser.cpp.s
 
+src/proxy_client.o: src/proxy_client.cpp.o
+.PHONY : src/proxy_client.o
+
+# target to build an object file
+src/proxy_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proxy.dir/build.make CMakeFiles/proxy.dir/src/proxy_client.cpp.o
+.PHONY : src/proxy_client.cpp.o
+
+src/proxy_client.i: src/proxy_client.cpp.i
+.PHONY : src/proxy_client.i
+
+# target to preprocess a source file
+src/proxy_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proxy.dir/build.make CMakeFiles/proxy.dir/src/proxy_client.cpp.i
+.PHONY : src/proxy_client.cpp.i
+
+src/proxy_client.s: src/proxy_client.cpp.s
+.PHONY : src/proxy_client.s
+
+# target to generate assembly for a file
+src/proxy_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proxy.dir/build.make CMakeFiles/proxy.dir/src/proxy_client.cpp.s
+.PHONY : src/proxy_client.cpp.s
+
 src/server.o: src/server.cpp.o
 .PHONY : src/server.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/parser.o"
 	@echo "... src/parser.i"
 	@echo "... src/parser.s"
+	@echo "... src/proxy_client.o"
+	@echo "... src/proxy_client.i"
+	@echo "... src/proxy_client.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"

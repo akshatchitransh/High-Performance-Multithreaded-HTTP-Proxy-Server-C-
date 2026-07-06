@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/proxy.dir/src/main.cpp.o.d"
   "CMakeFiles/proxy.dir/src/parser.cpp.o"
   "CMakeFiles/proxy.dir/src/parser.cpp.o.d"
+  "CMakeFiles/proxy.dir/src/proxy_client.cpp.o"
+  "CMakeFiles/proxy.dir/src/proxy_client.cpp.o.d"
   "CMakeFiles/proxy.dir/src/server.cpp.o"
   "CMakeFiles/proxy.dir/src/server.cpp.o.d"
   "proxy"
